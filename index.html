@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/css/index.css" />
+    <link rel="icon" href="static/img/icon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script defer src="static/js/darkmode.js"></script>
+    <script defer src="static/js/menu.js"></script>
+    <title>Sayran Felix</title>
+  </head>
+  <body>
+    <main>
+      <noscript
+        >Este site necessita de JavaScript para ter um bom
+        funcionamento!</noscript
+      >
+      <div class="root">
+        <header class="header">
+          <nav class="nav">
+            <a href="/">
+              <img
+                class="nav-logo"
+                id="nav-logo"
+                src="static/img/sayranfelix.svg"
+                alt="Sayran Felix"
+              />
+            </a>
+            <ul class="nav-list">
+              <li><a class="nav-list-item" href="#">Início</a></li>
+              <li><a class="nav-list-item" href="#">Sobre</a></li>
+              <li><a class="nav-list-item" href="#">Projetos</a></li>
+              <li><a class="nav-list-item" href="#">Contato</a></li>
+              <li class="nav-list-divisor">\\\</li>
+              <li>
+                <button id="nav-list-item-btn">
+                  <i
+                    class="bi bi-moon-stars-fill nav-list-item-toggleMode"
+                    id="btn-dark"
+                  ></i>
+                </button>
+              </li>
+            </ul>
+            <div class="nav-list-open" id="btn-menu">
+              <i class="bi bi-list"></i>
+            </div>
+          </nav>
+
+          <!-- Mobile Version -->
+
+          <ul class="nav-list-mobile" id="nav-list-mobile">
+            <div class="overlay-menu" id="overlay-menu"></div>
+            <i class="bi bi-x-lg" id="menu-x"></i>
+            <li><a href="#" class="nav-list-item-mobile">Início</a></li>
+            <li><a href="#" class="nav-list-item-mobile">Sobre</a></li>
+            <li><a href="#" class="nav-list-item-mobile">Projetos</a></li>
+            <li><a href="#" class="nav-list-item-mobile">Contato</a></li>
+            <li>
+              <button id="nav-list-item-btn-mobile">
+                <i
+                  class="bi bi-moon-stars-fill nav-list-item-toggleMode-mobile"
+                  id="btn-dark-mobile"
+                ></i>
+              </button>
+            </li>
+          </ul>
+        </header>
+        <div class="content" id="initial-content">
+          <div class="bg"></div>
+          <div class="content-welcome">
+            <p class="content-welcome-text">Olá, seja bem-vindo!</p>
+            <p class="content-welcome-emoji">👋</p>
+          </div>
+          <h1>Meu nome é Sayran</h1>
+          <p class="content-welcome-text">E eu sou um desenvolvedor web! ;)</p>
+          <div class="social-medias">
+            <a href="https://instagram.com/sayranfelix"
+              ><i class="bi bi-instagram social-medias-item"></i
+            ></a>
+            <a href="https://github.com/sayranfs"
+              ><i class="bi bi-github social-medias-item"></i
+            ></a>
+            <a href="https://linkedin.com/in/sayran-felix-santana-98642730b/"
+              ><i class="bi bi-linkedin social-medias-item"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
